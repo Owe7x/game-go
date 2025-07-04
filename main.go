@@ -39,8 +39,7 @@ func main() {
 	fmt.Println("Игра запущена")
 
 	ResetGame()
-	// Пример использования
-	fmt.Println(handleCommand("осмотреться"))
+
 }
 
 func handleCommand(input string) string {
